@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar"
 
 // ? And here are all your page components. 
 // ! Starting from the top, comment them out one by one and make routes for them below!
+
 import Home from "./components/Home"
 import About from "./components/About"
 import CountriesList from "./components/CountriesList"
@@ -25,7 +26,7 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path ="/about" element={<About />} />
     <Route path="/countries" element={<CountriesList />} />
-    <Route path="/country/:name" element={<ShowCountry />} />
+    <Route path="/country/:countryName" element={<ShowCountry />} />
     </Routes>
     </Router>
 

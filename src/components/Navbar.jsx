@@ -20,7 +20,7 @@ function Navbar() {
               <Link to="/countries" className="navbar-item">
                 All Countries
               </Link>
-              <Link to="/country/:countryName" className="navbar-item">
+              <Link to="/country/United States" className="navbar-item">
                 My Country
               </Link>
             </div>

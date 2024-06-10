@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 function Country({ commonName, countryRegion, flagImage }) {
   return <div className="column is-one-quarter-desktop is-one-third-tablet">
-    <Link to="/country/:countryName">
+    <Link to={`/country/${commonName}`}>
     <div className="card">
       <div className="card-header">
         <div className="card-header-title">{commonName}</div>
